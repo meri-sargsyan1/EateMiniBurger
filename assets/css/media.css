@@ -18,6 +18,7 @@
         border-bottom: 1px solid #eee;
         position: relative;
     }
+    /* --------------------------.header end */
 }
 
 
@@ -42,6 +43,32 @@
     .hero-image {
         display: none;
     }
+    #city-popup {
+        width: 327px;
+        height: 135px;
+        border-radius: 30px;
+        display: none;
+        position: absolute;
+        top: 110px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background: var(--White, #FFFFFF);
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        padding: 25px;
+        width: 300px;
+        text-align: center;
+        z-index: 999;
+    }
+}
+
+
+/* ----------------------------------------------------- max-width:842px-------*/
+
+@media screen and (max-width: 842px) {
+    .hero-content {
+        margin-left: 30px !important;
+    }
 }
 
 
@@ -58,13 +85,213 @@
     .favorite {
         display: none !important;
     }
+    /* ---------------------------header end--- */
+    /* ---------------------------------------------her0 section start */
+    .section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .contenLarge {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heroContents {
+        display: none !important;
+    }
+    .hero-content {
+        height: 100px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .options {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around !important;
+    }
+    .heroContent1 {
+        max-width: 455px;
+        width: 100%;
+        min-height: 242px;
+        gap: 35px;
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .heroContent1 .h1 {
+        max-width: 335px;
+        width: 100%;
+        min-height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .heroContent1 .h1 h1 {
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 0%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: var(--Black, #1E1C2F);
+    }
+    .heroContent1 .h1 p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: var(--Black, #1E1C2F);
+    }
+    .imgPizza {
+        display: flex !important;
+    }
+    .heroBlock {
+        width: 100%;
+        height: 100px !important;
+        position: absolute !important;
+        margin-top: 10px !important;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        overflow: auto;
+        padding: 0 !important;
+        margin: 0 !important;
+        position: absolute;
+    }
+    .how-link {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .hero-content {
+        margin-left: 2px !important;
+    }
 }
 
 
-/* ----------------------------------------------------- max-width:400px-------*/
+/* ------------------------------------------max-width 493px */
 
-@media screen and (max-width: 400px) {
-    /* --------------------------.header start */
+@media screen and (max-width: 493px) {
+    section.hero {
+        width: 100%;
+        height: auto !important;
+        position: absolute;
+        margin-top: 620px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    a.how-link {
+        display: none !important;
+    }
+}
+
+
+/* ----------------------------------------------------- max-width:419px-------*/
+
+@media screen and (max-width: 419px) {
+    /* -----------------------------------------hero section */
+    .contenLarge {
+        padding: 3px !important;
+        position: relative;
+    }
+    .imgPizza {
+        max-width: 335px;
+        width: 100%;
+        min-height: 336px;
+    }
+    .heroBlock {
+        position: absolute !important;
+        width: 375px !important;
+        min-height: 202px !important;
+        justify-content: space-between;
+        border-radius: 29px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        margin-top: 10px !important;
+    }
+    button.option-btn {
+        border-radius: 16px;
+        gap: 8px;
+        padding-top: 13px !important;
+        padding-right: 20px!important;
+        padding-bottom: 13px!important;
+        padding-left: 20px!important;
+    }
+    .search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding-top: 6px;
+        padding-right: 6px;
+        padding-bottom: 6px;
+        padding-left: 17px;
+    }
+    .search-bar input {
+        max-width: 254px;
+        width: 100%;
+        min-height: 42px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: var(--Gray-3, #666480);
+        text-wrap: 2;
+    }
+    .VectorYellow {
+        display: flex !important;
+    }
+    .search-bar button {
+        display: none !important;
+    }
+    .search-bar img {
+        display: none !important;
+    }
+    .hero-content {
+        padding-inline: 20px !important;
+    }
+    .heroContent1 {
+        width: 100%;
+    }
+    .heroContent1 p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .heroContent1.h1 {
+        width: 100%;
+        height: 64px;
+    }
+    .heroContent1.h1 h1 {
+        font-weight: 700;
+        font-size: 19px!important;
+        line-height: 0%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
 }
 
 
@@ -105,5 +332,12 @@
         background-color: #fff;
         border-bottom: 1px solid #eee;
         position: relative;
+    }
+    .heroContent1 .h1 h1 {
+        font-weight: 700;
+        font-size: 19px !important;
+        line-height: 0%;
+        letter-spacing: 0%;
+        text-align: center;
     }
 }
