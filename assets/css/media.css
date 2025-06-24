@@ -1,0 +1,109 @@
+/* ----------------------------------------------------max-width:1392px--------- */
+
+@media screen and (max-width:1392px) {
+    /* --------------------------.header start */
+    .header {
+        width: 100%;
+        min-height: 130px;
+        padding-top: 25px;
+        padding-right: 60px;
+        padding-bottom: 25px;
+        padding-left: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px !important;
+        padding: 12px 24px;
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+        position: relative;
+    }
+}
+
+
+/* ----------------------------------------------------- max-width:1258px-------*/
+
+@media screen and (max-width:1258px) {}
+
+
+/* ----------------------------------------------------- max-width:1108px-------*/
+
+@media screen and (max-width:1108px) {
+    /* --------------------------.header start */
+    .burger {
+        display: flex !important;
+    }
+    .chef-image {
+        display: none;
+    }
+    #mainNav {
+        display: none;
+    }
+    .hero-image {
+        display: none;
+    }
+}
+
+
+/* ----------------------------------------------------- max-width:778px-------*/
+
+@media screen and (max-width: 778px) {
+    /* --------------------------.header start */
+    .burger {
+        display: flex !important;
+    }
+    .city {
+        display: none;
+    }
+    .favorite {
+        display: none !important;
+    }
+}
+
+
+/* ----------------------------------------------------- max-width:400px-------*/
+
+@media screen and (max-width: 400px) {
+    /* --------------------------.header start */
+}
+
+
+/* ----------------------------------------------------- max-width:376px-------*/
+
+@media screen and (max-width: 376px) {
+    /* --------------------------.header start */
+    .burger {
+        display: block;
+    }
+    nav#mainNav {
+        display: none;
+    }
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-city,
+    .user-section {
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    /* --------------------------.header start */
+    .header {
+        width: 100%;
+        min-height: 130px;
+        padding-top: 25px;
+        padding-right: 60px;
+        padding-bottom: 25px;
+        padding-left: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px !important;
+        padding: 12px 24px;
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+        position: relative;
+    }
+}
