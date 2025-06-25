@@ -25,3 +25,24 @@ window.addEventListener('DOMContentLoaded', () => {
         console.error("Մի բան չի գտնվել։ Ստուգիր id-ները HTML-ում։");
     }
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.getElementById("slider");
+    const leftBtn = document.querySelector(".slider-btn.left");
+    const rightBtn = document.querySelector(".slider-btn.right");
+
+    const scrollStep = 300;
+
+    leftBtn.addEventListener("click", () => {
+        slider.scrollBy({
+            left: -scrollStep,
+            behavior: "smooth"
+        });
+    });
+
+    rightBtn.addEventListener("click", () => {
+        slider.scrollBy({
+            left: scrollStep,
+            behavior: "smooth"
+        });
+    });
+});
