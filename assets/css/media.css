@@ -206,6 +206,22 @@
         flex-direction: column;
         gap: 30px;
     }
+    
+    .cardMini {
+        max-width: 176px;
+        width: 100%;
+        min-height: 226px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px !important;
+        background: #f5f5ff;
+        padding: 16px;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
 }
 @media screen and (max-width: 728px) {
     .hero-content {
@@ -336,6 +352,30 @@
         color: #6F64FE;
         text-align: center;
     }
+    
+    .heroBefore .how-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    
+    .cardMini {
+        max-width: 176px;
+        width: 100%;
+        min-height: 226px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        background: #f5f5ff;
+        padding: 16px;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
 }
 
 /* ----------------------------------------------------- max-width:376px-------*/
@@ -423,6 +463,22 @@
         text-decoration-skip-ink: auto;
         color: #6F64FE;
         text-align: center;
+    }
+    
+    .cardMini {
+        max-width: 176px;
+        width: 100%;
+        min-height: 226px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        background: #f5f5ff;
+        padding: 16px;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
 }
 @media screen and (max-width:350px) {
