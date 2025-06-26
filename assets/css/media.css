@@ -26,31 +26,27 @@
 /* --------------------------.header end */
 
 
-}
-
 /* ----------------------------------------------------- max-width:1258px-------*/
+
 @media screen and (max-width:1258px) {}
 
+
 /* ----------------------------------------------------- max-width:1108px-------*/
+
 @media screen and (max-width:1108px) {
     /* --------------------------.header start */
-    
     .burger {
         display: flex !important;
     }
-    
     .chef-image {
         display: none;
     }
-    
     #mainNav {
         display: none;
     }
-    
     .hero-image {
         display: none;
     }
-    
     #city-popup {
         width: 327px;
         height: 135px;
@@ -70,31 +66,31 @@
     }
 }
 
+
 /* ----------------------------------------------------- max-width:842px-------*/
+
 @media screen and (max-width: 842px) {
     .hero-content {
         margin-left: 30px !important;
     }
 }
 
+
 /* ----------------------------------------------------- max-width:778px-------*/
+
 @media screen and (max-width: 778px) {
     /* --------------------------.header start */
-    
     .burger {
         display: flex !important;
     }
-    
     .city {
         display: none;
     }
-    
     .favorite {
         display: none !important;
     }
     /* ---------------------------header end--- */
     /* ---------------------------------------------her0 section start */
-    
     .section {
         width: 100%;
         display: flex;
@@ -103,15 +99,12 @@
         flex-direction: column;
         position: relative;
     }
-    
     .heroBlock {
         display: none !important;
     }
-    
     .heroContent1 {
         display: none;
     }
-    
     .heroBefore {
         width: 100%;
         height: auto;
@@ -121,7 +114,6 @@
         flex-direction: column;
         position: relative;
     }
-    
     .searchbarAfter {
         max-width: 375px;
         width: 100%;
@@ -136,19 +128,16 @@
         position: absolute;
         margin-top: 190px;
     }
-    
     .heroBefore .how-link {
         display: flex !important;
         margin-top: 10px;
     }
-    
     .optionss {
         max-width: 266px !important;
         width: 100%;
         min-height: 43px !important;
         gap: 20px;
     }
-    
     .optionss .option-btn {
         border-radius: 16px;
         gap: 8px;
@@ -157,7 +146,6 @@
         padding-bottom: 13px;
         padding-left: 20px;
     }
-    
     .search-bar button {
         border-radius: 16px;
         gap: 8px;
@@ -172,33 +160,26 @@
         border-radius: 12px;
         font-weight: bold;
     }
-    
     .VectorYellow {
         display: flex !important;
     }
-    
     .popular-headerr {
         display: none !important;
     }
-    
     .popular-headerrAfter {
         display: flex !important;
     }
-    
     .fade-left {
         display: none !important;
     }
-    
     .fade-right {
         display: none !important;
     }
-    
     .slider-section {
         width: 100% !important;
         padding: 0px 0px !important;
         margin-top: 80px !important;
     }
-    
     .container-fluid {
         display: flex;
         align-items: center;
@@ -206,7 +187,6 @@
         flex-direction: column;
         gap: 30px;
     }
-    
     .cardMini {
         max-width: 176px;
         width: 100%;
@@ -223,13 +203,16 @@
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
 }
+
 @media screen and (max-width: 728px) {
     .hero-content {
         margin-left: 2px !important;
     }
 }
 
+
 /* ------------------------------------------max-width 493px */
+
 @media screen and (max-width: 493px) {
     section.hero {
         width: 100%;
@@ -240,24 +223,24 @@
         align-items: flex-start;
         justify-content: center;
     }
-    
     a.how-link {
         display: none !important;
     }
-    
     .VectorYellow {
         display: flex !important;
     }
 }
 
+
 /* ----------------------------------------------------- max-width:419px-------*/
+
 @media screen and (max-width: 419px) {
     /* -----------------------------------------hero section */
-    
     .VectorYellow {
         display: flex !important;
     }
 }
+
 @media screen and (max-width: 394px) {
     .searchbarAfter {
         max-width: 375px;
@@ -273,16 +256,13 @@
         position: absolute;
         margin-top: 274px;
     }
-    
     .slider-wrapper {
         margin-top: 20px;
     }
-    
     .cardMini {
         width: 148.21438598632812px;
         height: 190.79312133789062px;
     }
-    
     .slider-btn1 {
         display: flex !important;
         align-items: center;
@@ -300,16 +280,13 @@
         line-height: 100%;
         letter-spacing: 0%;
     }
-    
     .columns-wrapper {
         overflow-x: scroll;
     }
-    
     .horizontal-scroll .column {
         min-width: 80vw;
         max-width: 80vw;
     }
-    
     .top-places {
         max-width: 375px;
         width: 100%;
@@ -322,15 +299,12 @@
         background: var(--Gray-1, #F3F2FF);
         margin-top: 20px !important;
     }
-    
     .swiper-slide {
         background: var(--Gray-1, #F3F2FF) !important;
     }
-    
     .slider-section {
         margin-top: 150px !important;
     }
-    
     .slider-btn2 {
         width: 335px;
         height: 48.30119323730469px;
@@ -352,7 +326,6 @@
         color: #6F64FE;
         text-align: center;
     }
-    
     .heroBefore .how-link {
         display: flex;
         align-items: center;
@@ -360,7 +333,6 @@
         flex-direction: column;
         margin-top: 80px;
     }
-    
     .cardMini {
         max-width: 176px;
         width: 100%;
@@ -378,28 +350,28 @@
     }
 }
 
+
 /* ----------------------------------------------------- max-width:376px-------*/
+
 @media screen and (max-width: 376px) {
     /* --------------------------.header start */
-    
+    .header {
+        height: 56px !important;
+    }
     .burger {
         display: block;
     }
-    
     nav#mainNav {
         display: none;
     }
-    
     .header {
         flex-direction: row;
         justify-content: space-between;
     }
-    
     .logo-city,
     .user-section {
         gap: 12px;
     }
-    
     .searchbarAfter {
         max-width: 375px;
         width: 100%;
@@ -414,35 +386,28 @@
         position: absolute;
         margin-top: 237px;
     }
-    
     .heroBefore .how-link {
         display: flex !important;
         margin-top: 70px;
     }
-    
     .logo img {
         width: 128.28204345703125px;
         height: 33.1324462890625px;
         gap: 26.1px;
     }
-    
     .profile img {
         width: 37.9999885559082px;
         height: 36.7741813659668px;
     }
-    
     .profile span {
         display: none !important;
     }
-    
     .swiper-slide {
         background: var(--Gray-1, #F3F2FF) !important;
     }
-    
     .slider-section {
         margin-top: 150px !important;
     }
-    
     .slider-btn2 {
         width: 335px;
         height: 48.30119323730469px;
@@ -464,7 +429,6 @@
         color: #6F64FE;
         text-align: center;
     }
-    
     .cardMini {
         max-width: 176px;
         width: 100%;
@@ -481,12 +445,12 @@
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
 }
+
 @media screen and (max-width:350px) {
     /* --------------------------.header start */
-    
     .header {
         width: 100%;
-        min-height: 130px !important;
+        min-height: 55px !important;
         padding-top: 25px;
         padding-right: 60px;
         padding-bottom: 25px;
@@ -500,7 +464,6 @@
         border-bottom: 1px solid #eee;
         position: relative;
     }
-    
     .heroContent1 .h1 h1 {
         font-weight: 700;
         font-size: 19px !important;
@@ -508,14 +471,12 @@
         letter-spacing: 0%;
         text-align: center;
     }
-    
     .optionss {
         max-width: 266px !important;
         width: 100%;
         min-height: 43px !important;
         gap: 20px;
     }
-    
     .optionss .option-btn {
         border-radius: 16px;
         gap: 8px;
@@ -524,7 +485,6 @@
         padding-bottom: 13px;
         padding-left: 20px;
     }
-    
     input[type="text"] {
         width: 254px;
         height: 42px;
